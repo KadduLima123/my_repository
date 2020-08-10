@@ -28,7 +28,7 @@ public class CompraTest extends TestCase  {
         calc = new Calculo();
         
         //CT Idade >65
-        compraDesc10.setValor(2000);
+        compraDesc10.setValor(3000);
         compraDesc10.setIdade(70);
         compraDesc10.setDesconto(calc.calcularDesconto(compraDesc10.getValor(), compraDesc10.getIdade()));
         compraDesc10.setTotal(calc.calculartotal(compraDesc10.getValor(), compraDesc10.getDesconto()));
